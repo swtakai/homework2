@@ -1,7 +1,5 @@
 body{
     background-color: #000000;
-}
-h1, h2, h3, h4, h5, h6, p{
     font-family: "Lucida Grande", sans-serif;
     color: #FFFFFF;
 }
@@ -26,8 +24,7 @@ img{
     height: auto;
 }
 div{
-    height: 150px;
-    overflow: visible;
+    min-height: 150px;
     padding: 25px;
 }
 #red{
@@ -55,6 +52,7 @@ div{
 }
 footer p{
     text-align: right;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
 }
